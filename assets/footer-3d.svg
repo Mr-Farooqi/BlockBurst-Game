@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 130" width="1200" height="130" role="img" aria-label="BlockBurst Animated 3D Footer">
+  <defs>
+    <linearGradient id="fBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#070b16"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#070b16"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#a855f7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.35"/>
+    </linearGradient>
+    <clipPath id="fClip"><rect x="2" y="2" width="1196" height="126" rx="18"/></clipPath>
+  </defs>
+  <rect x="2" y="2" width="1196" height="126" rx="18" fill="url(#fBg)" stroke="rgba(148,163,184,0.2)"/>
+  <g clip-path="url(#fClip)">
+    <path fill="url(#wave1)">
+      <animate attributeName="d"
+        values="M0,95 Q300,60 600,95 T1200,95 L1200,130 L0,130 Z;
+                M0,85 Q300,118 600,85 T1200,85 L1200,130 L0,130 Z;
+                M0,95 Q300,60 600,95 T1200,95 L1200,130 L0,130 Z"
+        dur="5s" repeatCount="indefinite"/>
+    </path>
+    <g>
+    <g opacity="1">
+    <polygon points="97.68,45 110,51.16 110,64.16 97.68,58" fill="#38bdf8" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="122.32,45 110,51.16 110,64.16 122.32,58" fill="#0284c7" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="110,38.84 122.32,45 110,51.16 97.68,45" fill="#7dd3fc" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="3.2s" repeatCount="indefinite"/>
+  </g>
+<g>
+    <g opacity="1">
+    <polygon points="1077.68,45 1090,51.16 1090,64.16 1077.68,58" fill="#f472b6" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="1102.32,45 1090,51.16 1090,64.16 1102.32,58" fill="#db2777" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="1090,38.84 1102.32,45 1090,51.16 1077.68,45" fill="#f9a8d4" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+    <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="2.8s" repeatCount="indefinite"/>
+  </g>
+    <text x="600" y="54" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, system-ui, sans-serif" font-size="18" font-weight="800" letter-spacing="0.5">
+      Built with Pure HTML5 • CSS3 • Vanilla JavaScript
+    </text>
+    <text x="600" y="80" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI, system-ui, sans-serif" font-size="13.5" font-weight="600">
+      Zero Frameworks • Zero External Assets • Open Directly in Any Browser or GitHub Pages
+    </text>
+  </g>
+</svg>

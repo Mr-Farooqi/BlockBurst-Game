@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="BlockBurst 3D Isometric Hero Banner">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060a15"/>
+      <stop offset="55%" stop-color="#0b1224"/>
+      <stop offset="100%" stop-color="#111834"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="22%" cy="50%" r="36%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowPurple" cx="80%" cy="30%" r="42%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="borderGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#a855f7;#34d399;#38bdf8" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#a855f7">
+        <animate attributeName="stop-color" values="#a855f7;#f472b6;#38bdf8;#a855f7" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#34d399">
+        <animate attributeName="stop-color" values="#34d399;#fbbf24;#a855f7;#34d399" dur="7s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="45%" stop-color="#7dd3fc"/>
+      <stop offset="75%" stop-color="#e9d5ff"/>
+      <stop offset="100%" stop-color="#6ee7b7"/>
+    </linearGradient>
+    <linearGradient id="sweepBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="cardClip">
+      <rect x="2" y="2" width="1196" height="416" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <rect x="2" y="2" width="1196" height="416" rx="22" fill="url(#bgGrad)"/>
+  <g clip-path="url(#cardClip)">
+    <rect x="0" y="0" width="1200" height="420" fill="url(#glowCyan)"/>
+    <rect x="0" y="0" width="1200" height="420" fill="url(#glowPurple)"/>
+    <line x1="600" y1="240" x2="-225" y2="420" stroke="rgba(56,189,248,0.08)" stroke-width="1"/><line x1="600" y1="240" x2="-60" y2="420" stroke="rgba(56,189,248,0.08)" stroke-width="1"/><line x1="600" y1="240" x2="105" y2="420" stroke="rgba(56,189,248,0.08)" stroke-width="1"/><line x1="600" y1="240" x2="270" y2="420" stroke="rgba(56,189,248,0.08)" stroke-width="1"/><line x1="600" y1="240" x2="435" y2="420" stroke="rgba(56,189,248,0.08)" stroke-width="1"/><line x1="600" y1="240" x2="600" y2="420" stroke="rgba(56,189,248,0.08)" stroke-width="1"/><line x1="600" y1="240" x2="765" y2="420" stroke="rgba(56,189,248,0.08)" stroke-width="1"/><line x1="600" y1="240" x2="930" y2="420" stroke="rgba(56,189,248,0.08)" stroke-width="1"/><line x1="600" y1="240" x2="1095" y2="420" stroke="rgba(56,189,248,0.08)" stroke-width="1"/><line x1="600" y1="240" x2="1260" y2="420" stroke="rgba(56,189,248,0.08)" stroke-width="1"/><line x1="600" y1="240" x2="1425" y2="420" stroke="rgba(56,189,248,0.08)" stroke-width="1"/><line x1="0" y1="275" x2="1200" y2="275" stroke="rgba(168,85,247,0.07)" stroke-width="1"/><line x1="0" y1="307" x2="1200" y2="307" stroke="rgba(168,85,247,0.07)" stroke-width="1"/><line x1="0" y1="339" x2="1200" y2="339" stroke="rgba(168,85,247,0.07)" stroke-width="1"/><line x1="0" y1="371" x2="1200" y2="371" stroke="rgba(168,85,247,0.07)" stroke-width="1"/><line x1="0" y1="403" x2="1200" y2="403" stroke="rgba(168,85,247,0.07)" stroke-width="1"/>
+
+    <!-- Pulsing isometric floor shadow -->
+    <ellipse cx="250" cy="272" rx="135" ry="56" fill="rgba(0,0,0,0.55)">
+      <animate attributeName="rx" values="135;124;135" dur="3.4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.65;0.42;0.65" dur="3.4s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- 3D Isometric Monument -->
+    <g>
+      <polygon points="250,185 278,199 250,213 222,199" fill="#131c31" stroke="rgba(56,189,248,0.22)" stroke-width="1" /><polygon points="222,199 250,213 222,227 194,213" fill="#131c31" stroke="rgba(56,189,248,0.22)" stroke-width="1" /><polygon points="194,213 222,227 194,241 166,227" fill="#131c31" stroke="rgba(56,189,248,0.22)" stroke-width="1" /><polygon points="166,227 194,241 166,255 138,241" fill="#131c31" stroke="rgba(56,189,248,0.22)" stroke-width="1" /><polygon points="278,199 306,213 278,227 250,213" fill="#131c31" stroke="rgba(56,189,248,0.22)" stroke-width="1" /><polygon points="250,213 278,227 250,241 222,227" fill="#131c31" stroke="rgba(56,189,248,0.22)" stroke-width="1" /><polygon points="222,227 250,241 222,255 194,241" fill="#131c31" stroke="rgba(56,189,248,0.22)" stroke-width="1" /><polygon points="194,241 222,255 194,269 166,255" fill="#131c31" stroke="rgba(56,189,248,0.22)" stroke-width="1" /><polygon points="306,213 334,227 306,241 278,227" fill="#131c31" stroke="rgba(56,189,248,0.22)" stroke-width="1" /><polygon points="278,227 306,241 278,255 250,241" fill="#131c31" stroke="rgba(56,189,248,0.22)" stroke-width="1" /><polygon points="250,241 278,255 250,269 222,255" fill="#131c31" stroke="rgba(56,189,248,0.22)" stroke-width="1" /><polygon points="222,255 250,269 222,283 194,269" fill="#131c31" stroke="rgba(56,189,248,0.22)" stroke-width="1" /><polygon points="334,227 362,241 334,255 306,241" fill="#131c31" stroke="rgba(56,189,248,0.22)" stroke-width="1" /><polygon points="306,241 334,255 306,269 278,255" fill="#131c31" stroke="rgba(56,189,248,0.22)" stroke-width="1" /><polygon points="278,255 306,269 278,283 250,269" fill="#131c31" stroke="rgba(56,189,248,0.22)" stroke-width="1" /><polygon points="250,269 278,283 250,297 222,283" fill="#131c31" stroke="rgba(56,189,248,0.22)" stroke-width="1" />
+      <g opacity="1">
+    <polygon points="225.36,175 250,187.32 250,211.32 225.36,199" fill="#a78bfa" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="274.64,175 250,187.32 250,211.32 274.64,199" fill="#7c3aed" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="250,162.68 274.64,175 250,187.32 225.36,175" fill="#c4b5fd" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="197.36,189 222,201.32 222,225.32 197.36,213" fill="#a78bfa" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="246.64,189 222,201.32 222,225.32 246.64,213" fill="#7c3aed" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="222,176.68 246.64,189 222,201.32 197.36,189" fill="#c4b5fd" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="253.36,189 278,201.32 278,225.32 253.36,213" fill="#a78bfa" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="302.64,189 278,201.32 278,225.32 302.64,213" fill="#7c3aed" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="278,176.68 302.64,189 278,201.32 253.36,189" fill="#c4b5fd" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="169.36,203 194,215.32 194,239.32 169.36,227" fill="#38bdf8" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="218.64,203 194,215.32 194,239.32 218.64,227" fill="#0284c7" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="194,190.68 218.64,203 194,215.32 169.36,203" fill="#7dd3fc" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="141.36,217 166,229.32 166,253.32 141.36,241" fill="#38bdf8" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="190.64,217 166,229.32 166,253.32 190.64,241" fill="#0284c7" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="166,204.68 190.64,217 166,229.32 141.36,217" fill="#7dd3fc" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="197.36,217 222,229.32 222,253.32 197.36,241" fill="#34d399" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="246.64,217 222,229.32 222,253.32 246.64,241" fill="#059669" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="222,204.68 246.64,217 222,229.32 197.36,217" fill="#6ee7b7" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="253.36,217 278,229.32 278,253.32 253.36,241" fill="#f472b6" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="302.64,217 278,229.32 278,253.32 302.64,241" fill="#db2777" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="278,204.68 302.64,217 278,229.32 253.36,217" fill="#f9a8d4" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="225.36,231 250,243.32 250,267.32 225.36,255" fill="#34d399" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="274.64,231 250,243.32 250,267.32 274.64,255" fill="#059669" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="250,218.68 274.64,231 250,243.32 225.36,231" fill="#6ee7b7" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="281.36,231 306,243.32 306,267.32 281.36,255" fill="#f472b6" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="330.64,231 306,243.32 306,267.32 330.64,255" fill="#db2777" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="306,218.68 330.64,231 306,243.32 281.36,231" fill="#f9a8d4" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="197.36,245 222,257.32 222,281.32 197.36,269" fill="#fbbf24" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="246.64,245 222,257.32 222,281.32 246.64,269" fill="#d97706" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="222,232.68 246.64,245 222,257.32 197.36,245" fill="#fde68a" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="253.36,245 278,257.32 278,281.32 253.36,269" fill="#fbbf24" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="302.64,245 278,257.32 278,281.32 302.64,269" fill="#d97706" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="278,232.68 302.64,245 278,257.32 253.36,245" fill="#fde68a" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="225.36,259 250,271.32 250,295.32 225.36,283" fill="#fbbf24" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="274.64,259 250,271.32 250,295.32 274.64,283" fill="#d97706" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="250,246.68 274.64,259 250,271.32 225.36,259" fill="#fde68a" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+      <!-- Floating 3D Coral L-Block -->
+      <g filter="url(#softGlow)">
+        <g opacity="1">
+    <polygon points="197.36,154.2 222,166.52 222,190.52 197.36,178.2" fill="#fb7185" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="246.64,154.2 222,166.52 222,190.52 246.64,178.2" fill="#e11d48" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="222,141.88 246.64,154.2 222,166.52 197.36,154.2" fill="#fda4af" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="225.36,168.2 250,180.52 250,204.52 225.36,192.2" fill="#fb7185" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="274.64,168.2 250,180.52 250,204.52 274.64,192.2" fill="#e11d48" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="250,155.88 274.64,168.2 250,180.52 225.36,168.2" fill="#fda4af" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="197.36,182.2 222,194.52 222,218.52 197.36,206.2" fill="#fb7185" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="246.64,182.2 222,194.52 222,218.52 246.64,206.2" fill="#e11d48" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="222,169.88 246.64,182.2 222,194.52 197.36,182.2" fill="#fda4af" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-18; 0,0" dur="3.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"/>
+      </g>
+      <!-- Floating 3D Lime Domino -->
+      <g>
+        <g opacity="1">
+    <polygon points="298.16,184.6 322.8,196.92 322.8,220.92 298.16,208.6" fill="#a3e635" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="347.44,184.6 322.8,196.92 322.8,220.92 347.44,208.6" fill="#65a30d" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="322.8,172.28 347.44,184.6 322.8,196.92 298.16,184.6" fill="#bef264" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="270.16,198.6 294.8,210.92 294.8,234.92 270.16,222.6" fill="#a3e635" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="319.44,198.6 294.8,210.92 294.8,234.92 319.44,222.6" fill="#65a30d" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="294.8,186.28 319.44,198.6 294.8,210.92 270.16,198.6" fill="#bef264" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+        <animateTransform attributeName="transform" type="translate" values="0,-6; 0,-22; 0,-6" dur="2.7s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"/>
+      </g>
+      <!-- Floating 3D Cyan Single Cube -->
+      <g filter="url(#softGlow)">
+        <g opacity="1">
+    <polygon points="225.36,189 250,201.32 250,225.32 225.36,213" fill="#38bdf8" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="274.64,189 250,201.32 250,225.32 274.64,213" fill="#0284c7" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="250,176.68 274.64,189 250,201.32 225.36,189" fill="#7dd3fc" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+        <animateTransform attributeName="transform" type="translate" values="0,-12; 0,-30; 0,-12" dur="3.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"/>
+      </g>
+      
+    <circle cx="120" cy="130" r="3.5" fill="#38bdf8" opacity="0.85">
+      <animate attributeName="cy" values="130;116;130" dur="3.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="378" cy="148" r="4" fill="#f472b6" opacity="0.85">
+      <animate attributeName="cy" values="148;132;148" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="345" cy="295" r="3" fill="#fbbf24" opacity="0.85">
+      <animate attributeName="cy" values="295;283;295" dur="3.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="140" cy="280" r="3.5" fill="#34d399" opacity="0.85">
+      <animate attributeName="cy" values="280;266;280" dur="4.1s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="4.1s" repeatCount="indefinite"/>
+    </circle>
+    </g>
+
+    <!-- Right-side 3D Extruded Title & Badges -->
+    <g transform="translate(470, 96)">
+      <!-- Pill tag -->
+      <rect x="0" y="0" width="268" height="30" rx="15" fill="rgba(56,189,248,0.12)" stroke="rgba(56,189,248,0.45)" stroke-width="1"/>
+      <circle cx="18" cy="15" r="4.5" fill="#34d399">
+        <animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="32" y="20" fill="#bae6fd" font-family="Segoe UI, system-ui, sans-serif" font-size="12.5" font-weight="700" letter-spacing="1.4">GITHUB PAGES READY • SINGLE FILE</text>
+
+      <!-- 3D Extruded Text Shadow Layers -->
+      <text x="5" y="106" fill="#0f172a" font-family="Segoe UI, system-ui, sans-serif" font-size="76" font-weight="900" letter-spacing="2">BLOCKBURST</text>
+      <text x="3" y="103" fill="#1e3a8a" font-family="Segoe UI, system-ui, sans-serif" font-size="76" font-weight="900" letter-spacing="2">BLOCKBURST</text>
+      <text x="0" y="100" fill="url(#titleGrad)" font-family="Segoe UI, system-ui, sans-serif" font-size="76" font-weight="900" letter-spacing="2" filter="url(#softGlow)">BLOCKBURST</text>
+
+      <!-- Subtitle -->
+      <text x="2" y="142" fill="#94a3b8" font-family="Segoe UI, system-ui, sans-serif" font-size="21" font-weight="600">
+        Block Blast 8x8 Puzzle Game • Pure Vanilla HTML, CSS &amp; JS
+      </text>
+
+      <!-- Animated Feature Chips -->
+      <g transform="translate(0, 174)">
+        <g>
+          <rect x="0" y="0" width="132" height="38" rx="10" fill="rgba(30,41,59,0.8)" stroke="rgba(56,189,248,0.4)"/>
+          <text x="66" y="24" text-anchor="middle" fill="#7dd3fc" font-family="Segoe UI, system-ui, sans-serif" font-size="13.5" font-weight="800">8x8 GRID</text>
+        </g>
+        <g transform="translate(146, 0)">
+          <rect x="0" y="0" width="144" height="38" rx="10" fill="rgba(30,41,59,0.8)" stroke="rgba(52,211,153,0.4)"/>
+          <text x="72" y="24" text-anchor="middle" fill="#6ee7b7" font-family="Segoe UI, system-ui, sans-serif" font-size="13.5" font-weight="800">37 SHAPES</text>
+        </g>
+        <g transform="translate(304, 0)">
+          <rect x="0" y="0" width="152" height="38" rx="10" fill="rgba(30,41,59,0.8)" stroke="rgba(251,191,36,0.4)"/>
+          <text x="76" y="24" text-anchor="middle" fill="#fde68a" font-family="Segoe UI, system-ui, sans-serif" font-size="13.5" font-weight="800">x2 / x3+ COMBO</text>
+        </g>
+        <g transform="translate(470, 0)">
+          <rect x="0" y="0" width="150" height="38" rx="10" fill="rgba(30,41,59,0.8)" stroke="rgba(244,114,182,0.4)"/>
+          <text x="75" y="24" text-anchor="middle" fill="#f9a8d4" font-family="Segoe UI, system-ui, sans-serif" font-size="13.5" font-weight="800">WEB AUDIO FX</text>
+        </g>
+      </g>
+
+      <!-- Animated light sweep bar -->
+      <rect x="0" y="238" width="620" height="6" rx="3" fill="rgba(148,163,184,0.14)"/>
+      <rect x="0" y="238" width="180" height="6" rx="3" fill="url(#sweepBeam)">
+        <animate attributeName="x" values="-180;620" dur="3.4s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+  </g>
+  <rect x="2" y="2" width="1196" height="416" rx="22" fill="none" stroke="url(#borderGlow)" stroke-width="2" opacity="0.72"/>
+</svg>

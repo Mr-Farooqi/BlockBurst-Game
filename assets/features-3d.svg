@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 250" width="1100" height="250" role="img" aria-label="BlockBurst 3D Feature Cards">
+  <g transform="translate(10, 10)">
+      <rect x="0" y="0" width="262" height="230" rx="18" fill="#0b1224" stroke="rgba(148,163,184,0.22)" stroke-width="1.2"/>
+      <rect x="0" y="0" width="262" height="4" rx="2" fill="#38bdf8" opacity="0.85"/>
+      <ellipse cx="132" cy="126" rx="44" ry="16" fill="rgba(0,0,0,0.55)">
+        <animate attributeName="rx" values="44;36;44" dur="3s" begin="0s" repeatCount="indefinite"/>
+      </ellipse>
+      <g>
+        <g opacity="1">
+    <polygon points="129.68,66 142,72.16 142,84.16 129.68,78" fill="#38bdf8" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="154.32,66 142,72.16 142,84.16 154.32,78" fill="#0284c7" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="142,59.84 154.32,66 142,72.16 129.68,66" fill="#7dd3fc" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="143.68,73 156,79.16 156,91.16 143.68,85" fill="#38bdf8" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="168.32,73 156,79.16 156,91.16 168.32,85" fill="#0284c7" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="156,66.84 168.32,73 156,79.16 143.68,73" fill="#7dd3fc" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="129.68,80 142,86.16 142,98.16 129.68,92" fill="#38bdf8" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="154.32,80 142,86.16 142,98.16 154.32,92" fill="#0284c7" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="142,73.84 154.32,80 142,86.16 129.68,80" fill="#7dd3fc" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="129.68,68 142,74.16 142,86.16 129.68,80" fill="#38bdf8" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="154.32,68 142,74.16 142,86.16 154.32,80" fill="#0284c7" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="142,61.84 154.32,68 142,74.16 129.68,68" fill="#7dd3fc" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="3s" begin="0s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"/>
+      </g>
+      <text x="131" y="166" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, system-ui, sans-serif" font-size="16" font-weight="800">8x8 Grid & 37 Shapes</text>
+      <text x="131" y="190" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI, system-ui, sans-serif" font-size="12.5">14 colorful gradient families</text>
+      <text x="131" y="210" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, system-ui, sans-serif" font-size="12.5">No rotation • Smart tray deal</text>
+    </g>
+<g transform="translate(282, 10)">
+      <rect x="0" y="0" width="262" height="230" rx="18" fill="#0b1224" stroke="rgba(148,163,184,0.22)" stroke-width="1.2"/>
+      <rect x="0" y="0" width="262" height="4" rx="2" fill="#4ade80" opacity="0.85"/>
+      <ellipse cx="132" cy="126" rx="44" ry="16" fill="rgba(0,0,0,0.55)">
+        <animate attributeName="rx" values="44;36;44" dur="3s" begin="0.4s" repeatCount="indefinite"/>
+      </ellipse>
+      <g>
+        <g opacity="1">
+    <polygon points="401.68,66 414,72.16 414,84.16 401.68,78" fill="#34d399" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="426.32,66 414,72.16 414,84.16 426.32,78" fill="#059669" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="414,59.84 426.32,66 414,72.16 401.68,66" fill="#6ee7b7" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="387.68,73 400,79.16 400,91.16 387.68,85" fill="#34d399" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="412.32,73 400,79.16 400,91.16 412.32,85" fill="#059669" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="400,66.84 412.32,73 400,79.16 387.68,73" fill="#6ee7b7" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="401.68,80 414,86.16 414,98.16 401.68,92" fill="#34d399" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="426.32,80 414,86.16 414,98.16 426.32,92" fill="#059669" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="414,73.84 426.32,80 414,86.16 401.68,80" fill="#6ee7b7" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="3s" begin="0.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"/>
+      </g>
+      <text x="131" y="166" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, system-ui, sans-serif" font-size="16" font-weight="800">Touch & Mouse Drag</text>
+      <text x="131" y="190" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI, system-ui, sans-serif" font-size="12.5">Green / Red live ghost preview</text>
+      <text x="131" y="210" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, system-ui, sans-serif" font-size="12.5">Auto touch-lift offset on mobile</text>
+    </g>
+<g transform="translate(554, 10)">
+      <rect x="0" y="0" width="262" height="230" rx="18" fill="#0b1224" stroke="rgba(148,163,184,0.22)" stroke-width="1.2"/>
+      <rect x="0" y="0" width="262" height="4" rx="2" fill="#fbbf24" opacity="0.85"/>
+      <ellipse cx="132" cy="126" rx="44" ry="16" fill="rgba(0,0,0,0.55)">
+        <animate attributeName="rx" values="44;36;44" dur="3s" begin="0.8s" repeatCount="indefinite"/>
+      </ellipse>
+      <g>
+        <g opacity="1">
+    <polygon points="673.68,66 686,72.16 686,84.16 673.68,78" fill="#fbbf24" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="698.32,66 686,72.16 686,84.16 698.32,78" fill="#d97706" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="686,59.84 698.32,66 686,72.16 673.68,66" fill="#fde68a" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="687.68,73 700,79.16 700,91.16 687.68,85" fill="#fbbf24" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="712.32,73 700,79.16 700,91.16 712.32,85" fill="#d97706" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="700,66.84 712.32,73 700,79.16 687.68,73" fill="#fde68a" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="659.68,73 672,79.16 672,91.16 659.68,85" fill="#fbbf24" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="684.32,73 672,79.16 672,91.16 684.32,85" fill="#d97706" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="672,66.84 684.32,73 672,79.16 659.68,73" fill="#fde68a" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="673.68,80 686,86.16 686,98.16 673.68,92" fill="#fbbf24" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="698.32,80 686,86.16 686,98.16 698.32,92" fill="#d97706" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="686,73.84 698.32,80 686,86.16 673.68,80" fill="#fde68a" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="3s" begin="0.8s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"/>
+      </g>
+      <text x="131" y="166" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, system-ui, sans-serif" font-size="16" font-weight="800">60FPS FX & Combos</text>
+      <text x="131" y="190" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI, system-ui, sans-serif" font-size="12.5">Simultaneous row + col blasts</text>
+      <text x="131" y="210" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, system-ui, sans-serif" font-size="12.5">Canvas particles & x2/x3 popups</text>
+    </g>
+<g transform="translate(826, 10)">
+      <rect x="0" y="0" width="262" height="230" rx="18" fill="#0b1224" stroke="rgba(148,163,184,0.22)" stroke-width="1.2"/>
+      <rect x="0" y="0" width="262" height="4" rx="2" fill="#f472b6" opacity="0.85"/>
+      <ellipse cx="132" cy="126" rx="44" ry="16" fill="rgba(0,0,0,0.55)">
+        <animate attributeName="rx" values="44;36;44" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+      </ellipse>
+      <g>
+        <g opacity="1">
+    <polygon points="945.68,66 958,72.16 958,84.16 945.68,78" fill="#f472b6" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="970.32,66 958,72.16 958,84.16 970.32,78" fill="#db2777" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="958,59.84 970.32,66 958,72.16 945.68,66" fill="#f9a8d4" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="945.68,54 958,60.16 958,72.16 945.68,66" fill="#f472b6" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="970.32,54 958,60.16 958,72.16 970.32,66" fill="#db2777" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="958,47.84 970.32,54 958,60.16 945.68,54" fill="#f9a8d4" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+<g opacity="1">
+    <polygon points="959.68,73 972,79.16 972,91.16 959.68,85" fill="#f472b6" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="984.32,73 972,79.16 972,91.16 984.32,85" fill="#db2777" stroke="rgba(255,255,255,0.22)" stroke-width="0.7" stroke-linejoin="round"/>
+    <polygon points="972,66.84 984.32,73 972,79.16 959.68,73" fill="#f9a8d4" stroke="rgba(255,255,255,0.45)" stroke-width="0.8" stroke-linejoin="round"/>
+  </g>
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-10; 0,0" dur="3s" begin="1.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.45 0 0.55 1; 0.45 0 0.55 1"/>
+      </g>
+      <text x="131" y="166" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI, system-ui, sans-serif" font-size="16" font-weight="800">Zero Deps & Audio</text>
+      <text x="131" y="190" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI, system-ui, sans-serif" font-size="12.5">Web Audio API synth SFX</text>
+      <text x="131" y="210" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI, system-ui, sans-serif" font-size="12.5">localStorage High Score save</text>
+    </g>
+</svg>
